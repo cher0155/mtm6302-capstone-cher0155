@@ -1,3 +1,7 @@
+html {
+    margin: auto;
+}
+
 header {
     background-color: #4C0074;
     color: white;
@@ -9,8 +13,7 @@ header {
 .buttons {
     display: flex;
     flex-direction: column;
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 70px;
 }
 
 .btn-primary {
@@ -19,9 +22,17 @@ header {
     color:white;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    width:50rem;
+    height: 50px;
+    margin: auto;
+
 }
+
+.btn-primary:hover {
+background-color: plum;
+border-color: plum;
+}
+
 
 p {
     padding-top: 1rem;
